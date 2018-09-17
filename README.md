@@ -1,5 +1,11 @@
 :apple:🍊🍓  *推荐使用[chrome插件:简悦](http://ksria.com/simpread/)来阅读*   🍎🍊🍓
 
+**仓库维护时间越久，文章目录越来越长，为了优化阅读体验，拆分了大章节，增加了每个大章节的链接**
+
+|                         :strawberry:                         |                          :cherries:                          |                          :chestnut:                          |                           :peach:                            |                        :green_apple:                         |                           :apple:                            |                           :banana:                           |                           :grapes:                           |                         :kiwi_fruit:                         | :lemon:                                                      |                         :watermelon:                         |                         :strawberry:                         |                          :mandarin:                          |
+| :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: | ------------------------------------------------------------ | :----------------------------------------------------------: | :----------------------------------------------------------: | :----------------------------------------------------------: |
+| [计算机网络](https://github.com/PansonPanson/Java-Notes/blob/master/md/%E8%AE%A1%E7%AE%97%E6%9C%BA%E7%BD%91%E7%BB%9C.md) | [操作系统](https://github.com/PansonPanson/Java-Notes/blob/master/md/%E6%93%8D%E4%BD%9C%E7%B3%BB%E7%BB%9F.md) | [数据库](https://github.com/PansonPanson/Java-Notes/blob/master/md/%E6%95%B0%E6%8D%AE%E5%BA%93.md) | [算法](https://github.com/PansonPanson/Java-Notes/blob/master/md/%E7%AE%97%E6%B3%95.md) | [Java基础](https://github.com/PansonPanson/Java-Notes/blob/master/md/Java%E5%9F%BA%E7%A1%80.md) | [Java并发](https://github.com/PansonPanson/Java-Notes/blob/master/md/Java%E5%B9%B6%E5%8F%91.md) | [JVM](https://github.com/PansonPanson/Java-Notes/blob/master/md/JVM.md) | [设计模式](https://github.com/PansonPanson/Java-Notes/blob/master/md/%E8%AE%BE%E8%AE%A1%E6%A8%A1%E5%BC%8F.md) | [框架](https://github.com/PansonPanson/Java-Notes/blob/master/md/%E6%A1%86%E6%9E%B6.md) | [Web Server](https://github.com/PansonPanson/Java-Notes/blob/master/md/Web%20Server.md) | [分布式](https://github.com/PansonPanson/Java-Notes/blob/master/md/%E5%88%86%E5%B8%83%E5%BC%8F.md) | [搜索引擎](https://github.com/PansonPanson/Java-Notes/blob/master/md/%E6%90%9C%E7%B4%A2%E5%BC%95%E6%93%8E.md) | [其他](https://github.com/PansonPanson/Java-Notes/blob/master/md/%E5%85%B6%E4%BB%96.md) |
+
 
 
 # 一.计算机网络（Computer Networking）
@@ -21,25 +27,35 @@
 
 #### HTTP
 
-+ HTTP 请求方法
-  + MDN: [HTTP 请求方法](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Methods)
-  + w3school: [HTTP 方法: GET 对比 POST](http://www.w3school.com.cn/tags/html_ref_httpmethods.asp)
-+ HTTP 状态码
++ **HTTP 请求方法**
+  + [MDN: HTTP 请求方法](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Methods)
+  + [w3school    HTTP 方法: GET 对比 POST](http://www.w3school.com.cn/tags/html_ref_httpmethods.asp)
++ **HTTP 状态码**
   + [w3school: HTTP 状态消息](http://www.w3school.com.cn/tags/html_ref_httpmessages.asp)
   + [MDN: HTTP response codes](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/HTTP_response_codes)
-+ HTTP的发展：0.9/1.0/1.1/2.0
++ **HTTP 缓存** 
+  + [MDN: HTTP 缓存 FAQ](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Caching_FAQ)
+  + [google developers: HTTP 缓存](https://developers.google.com/web/fundamentals/performance/optimizing-content-efficiency/http-caching?hl=zh-cn)
+  + [MDN: Cache-Control](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Headers)  ==>> [英文](https://developer.mozilla.org/en-US/docs/Web/HTTP/Headers)
++ **HTTP内容协商**
+  + [MDN: 内容协商](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Content_negotiation)  ==>> [英文: Content negotiation](https://developer.mozilla.org/en-US/docs/Web/HTTP/Content_negotiation)
+  + [谈谈 HTTP/2 的协议协商机制](https://imququ.com/post/protocol-negotiation-in-http2.html)
++ **HTTP内容安全策略( CSP )**
+  + [内容安全策略( CSP )](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/CSP)   ==>> [Content Security Policy (CSP)](https://developer.mozilla.org/en-US/docs/Web/HTTP/CSP)
+  + [阮一峰：Content Security Policy 入门教程](http://www.ruanyifeng.com/blog/2016/09/csp.html)
++ **HTTP的发展：0.9/1.0/1.1/2.0**
   + [MDN: HTTP的发展](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Basics_of_HTTP/Evolution_of_HTTP)
   + [[译] HTTP 的进化 - 0.9、1.0、1.1、Keep-Alive、Upgrade 和 HTTPS](https://juejin.im/post/5aefc2a3f265da0b8c24e0c5)
   + [阮一峰：HTTP 协议入门](http://www.ruanyifeng.com/blog/2016/08/http.html)
 + [HTTP/1.x 的连接管理](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Connection_management_in_HTTP_1.x)
-+ Identifying resources on the Web
++ **Identifying resources on the Web**
   + [URI、URL、URN 的联系和区别](https://waylau.com/difference-of-uri-url-urn/)
   + [Identifying resources on the Web](https://developer.mozilla.org/zh-CN/docs/Web/HTTP/Basics_of_HTTP/Identifying_resources_on_the_Web)
-+ 浏览器发送一次网址请求的过程
++ **浏览器发送一次网址请求的过程**
   + [小白科普：从输入网址到最后浏览器呈现页面内容，中间发生了什么？](https://mp.weixin.qq.com/s?__biz=MzAxOTc0NzExNg==&mid=2665514196&idx=1&sn=ca26d258fcc4a35fc6d9a539b7d71dd7&chksm=80d67c97b7a1f58198b2e6ae436f73c677c0df4c05c2a8a4aad2b9e2d523da57dd5cd3d0a8ee&scene=21#wechat_redirect)
   + [知乎：当你在浏览器中输入 baidu.com 并且按下回车后发生了什么？](https://zhuanlan.zhihu.com/p/28262282)  
   + [An attempt to answer the age old interview question "What happens when you type google.com into your browser and press enter?"](https://github.com/alex/what-happens-when)
-+ 代理
++ **代理**
   + [图解正向代理、反向代理、透明代理](http://blog.51cto.com/z00w00/1031287)
 
 #### SSH
@@ -70,11 +86,12 @@
 
 ## Linux
 
-#### Linux基础
+#### Linux基础  ==>> 推荐阅读《鸟哥的Linux私房菜》
 
 + [实验楼：Linux基础](https://www.shiyanlou.com/courses/1)
 + [Linux命令实例练习](https://www.shiyanlou.com/courses/68)
-+ [《鸟哥的Linux私房菜》](https://book.douban.com/subject/4889838/)
++ [《鸟哥的Linux私房菜在线阅读》](http://linux.vbird.org/linux_basic/)
++ [Linux 命令大全](http://www.runoob.com/linux/linux-command-manual.html)
 
 #### Linux shell
 
@@ -85,9 +102,10 @@
 
 #### Vim
 
-+ [Vim编辑器基本使](https://www.shiyanlou.com/courses/2)
++ [Vim编辑器基本使用](https://www.shiyanlou.com/courses/2)
++ [陈皓：简明 VIM 练级攻略](https://coolshell.cn/articles/5426.html)
 
-
+#### Linux内核
 
 # 三.数据库（Database）
 
@@ -138,7 +156,7 @@
 
 
 
-# 四.算法
+# 四.算法(Algorithm)
 
 #### 排序算法
 
@@ -167,6 +185,17 @@
 #### KMP
 
 + [为什么java String.contains 没有使用类似KMP字符串匹配算法进行优化？](https://www.zhihu.com/question/27852656)
+
+#### 布隆过滤器(Bloom Filter)
+
++ [吴军：数学之美系列二十一 － 布隆过滤器（Bloom Filter）](https://china.googleblog.com/2007/07/bloom-filter_7469.html)
++ [使用BloomFilter布隆过滤器解决缓存击穿、垃圾邮件识别、集合判重]()
++ [布隆过滤器(Bloom Filter)的原理和实现](https://www.cnblogs.com/cpselvis/p/6265825.html)
+
+#### 一致性哈希
+
++ [一致性哈希算法的理解与实践](https://yikun.github.io/2016/06/09/%E4%B8%80%E8%87%B4%E6%80%A7%E5%93%88%E5%B8%8C%E7%AE%97%E6%B3%95%E7%9A%84%E7%90%86%E8%A7%A3%E4%B8%8E%E5%AE%9E%E8%B7%B5/)
++ [一致性HASH算法详解](https://www.jianshu.com/p/e8fb89bb3a61)
 
 #### JDK里的排序算法
 
@@ -256,7 +285,7 @@
   + [基于堆实现的优先级队列：PriorityQueue 解决 Top K 问题](https://my.oschina.net/leejun2005/blog/135085)
   + [jdk源码分析PriorityQueue](http://zswlib.iteye.com/blog/2334463)]
 
-#### Java 8
+#### Java 8 ==>> 推荐阅读《Java 8实战》与《Java 8函数式编程》
 
 + [What's New in JDK 8](http://www.oracle.com/technetwork/java/javase/8-whats-new-2157071.html)
 + [IBM: Java 8 新特性概述](https://www.ibm.com/developerworks/cn/java/j-lo-jdk8newfeature/index.html)
@@ -388,7 +417,7 @@
 #### AOP
 
 + [Spring AOP 实现原理与 CGLIB 应用](https://www.ibm.com/developerworks/cn/java/j-lo-springaopcglib/index.html)
-+ 动态代理
++ **动态代理**
   + [JDK动态代理代理与Cglib代理原理探究 ](http://ifeve.com/jdk%E5%8A%A8%E6%80%81%E4%BB%A3%E7%90%86%E4%BB%A3%E7%90%86%E4%B8%8Ecglib%E4%BB%A3%E7%90%86%E5%8E%9F%E7%90%86%E6%8E%A2%E7%A9%B6/)
   + [Java Proxy 和 CGLIB 动态代理原理](http://www.importnew.com/27772.html)
 
@@ -413,7 +442,7 @@
 + [知乎：servlet的本质是什么，它是如何工作的？](https://www.zhihu.com/question/21416727)
 + [许令波：Servlet 工作原理解析](https://www.ibm.com/developerworks/cn/java/j-lo-servlet/index.html)
 + [Servlet生命周期与工作原理](https://www.cnblogs.com/cuiliang/archive/2011/10/21/2220671.html)
-+ redirect和forward
++ **redirect和forward**
   + [知乎：web开发过程中redirect和forward有什么区别？](https://www.zhihu.com/question/38013677)
   + [请求转发（Forward）和重定向（Redirect）的区别](https://www.cnblogs.com/Qian123/p/5345527.html) 
 + [SpringMVC深度探险系列](http://www.iteye.com/blogs/subjects/springmvc-explore)
@@ -429,16 +458,20 @@
 
 ## Spring Cloud
 
+# 十 Web Server
+
+## Nginx
 
 
-# 十.分布式
+
+# 十一.分布式
 
 + [美团技术团队：分布式系统互斥性与幂等性问题的分析与解决](https://tech.meituan.com/distributed_system_mutually_exclusive_idempotence_cerberus_gtis.html)
-+ CAP理论：
++ **CAP理论：**
   + [论文：Brewer’s Conjecture and the Feasibility of Consistent, Available, Partition-Tolerant Web](https://users.ece.cmu.edu/~adrian/731-sp04/readings/GL-cap.pdf)
   + [CAP 定理的含义](http://www.ruanyifeng.com/blog/2018/07/cap.html)
 
-# 十一.搜索引擎
+# 十二.搜索引擎
 
 ## Elasticsearch
 
@@ -501,17 +534,19 @@
 
 [《程序员代码面试指南：IT名企算法与数据结构题目最优解》](https://book.douban.com/subject/26638586/)
 
+[《Java核心技术 卷Ⅰ》](https://book.douban.com/subject/26880667/)
+
 [《Java编程思想》](https://book.douban.com/subject/2130190/)
+
+[《Java 8函数式编程》](https://book.douban.com/subject/26346017/)
+
+[《Java 8实战》](https://book.douban.com/subject/26772632/)
 
 [《阿里巴巴Java开发规范》](https://book.douban.com/subject/27605355/)
 
 [《鸟哥的Linux私房菜》](https://book.douban.com/subject/4889838/)
 
 [《大型网站技术架构 核心原理与案例分析》](https://book.douban.com/subject/25723064/)
-
-[《Java多线程编程核心技术》](https://book.douban.com/subject/26555197/)
-
-[《Java核心技术 卷Ⅰ》](https://book.douban.com/subject/26880667/)
 
 [《Maven实战》](https://book.douban.com/subject/5345682/)
 
